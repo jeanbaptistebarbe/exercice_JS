@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>exercice7</title>
+</head>
+<body>
+  <form>
+    <label for="firstNumber">pointure : </label><input type="number" id="firstNumber" name="firstNumber"/><br/>
+    <label for="secondNumber">année de naissance : </label><input type="number" id="secondNumber" name="secondNumber"/><br/>
+    <button  id="submit" name ="submit" onclick="multi()">Valider</button>
+  </form>
+  <script>
+  function multi (){
+    var firstNumber= document.getElementById('firstNumber').value;
+    var secondNumber= document.getElementById('secondNumber').value;
+    var result= 2*firstNumber;
+    result+=5;
+    result*=50;
+    result= result-secondNumber;
+    result+=1766;
+    alert('result : '+result);
+    if(isNaN(result)==true){
+      alert('Erreur, ceci n est pas un nombre');
+    } else {
+      alert(' Voici le résultat '+ result);
+    }
+  }
+</script>
+</body>
+</html>

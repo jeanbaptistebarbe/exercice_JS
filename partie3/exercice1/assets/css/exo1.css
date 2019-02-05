@@ -1,0 +1,11 @@
+body {
+background-color: black;
+}
+.myTitle {
+color: red;
+text-align: center;
+}
+.centerBlock {
+margin-left: 40em;
+margin-right: 40em;
+}

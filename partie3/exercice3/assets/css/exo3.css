@@ -1,0 +1,22 @@
+.color{
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin : 5px;
+}
+.green{
+  background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+body {
+background-color: #f57864;
+}
+#text {
+margin-left: 25em;
+margin-right: 25em;
+}

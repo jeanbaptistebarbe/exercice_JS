@@ -1,0 +1,13 @@
+.colorMe {
+background-color: #8a3836;
+margin-left: 10em;
+margin-right: 10em;
+width: 20em;
+}
+body {
+background-color: #feead6;
+}
+.bigTitle {
+text-align: center;
+color: #8a3836;
+}
